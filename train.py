@@ -47,7 +47,7 @@ class Training(object):
     def fit_unet(self,X33_train,Y_train,X_patches_valid=None,Y_labels_valid=None):
 
         train_generator=self.img_msk_gen(X33_train,Y_train,9999)
-        checkpointer = ModelCheckpoint(filepath='/home/imahmoudi/brain_segmentation/Pereira_model_checkpoints/ResUnet.{epoch:02d}_{val_loss:.3f}.hdf5', verbose=1)
+        checkpointer = ModelCheckpoint(filepath='brain_segmentation/ResUnet.{epoch:02d}_{val_loss:.3f}.hdf5', verbose=1)
         self.model.fit_generator(train_generator,steps_per_epoch=len(X33_train)//self.batch_size,epochs=self.nb_epoch, validation_data=(X_patches_valid,Y_labels_valid),verbose=1, callbacks = [checkpointer,SGDLearningRateTracker()])
         #self.model.fit(X33_train,Y_train, epochs=self.nb_epoch,batch_size=self.batch_size,validation_data=(X_patches_valid,Y_labels_valid),verbose=1, callbacks = [checkpointer,SGDLearningRateTracker()])
 
