@@ -101,7 +101,7 @@ if __name__ == "__main__":
     #set arguments
 
     #reload already trained model to resume training
-    model_to_load="Pereira_model_checkpoints/ResUnet.04_0.646.hdf5" 
+    model_to_load="Models/ResUnet.04_0.646.hdf5" 
     #save=None
 
     #compile the model
