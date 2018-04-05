@@ -17,8 +17,10 @@ To run the code, you first need to install the following prerequisites:
 * keras
 * scipy
 * SimpleITK
-* skimage
+* scikit-image
+
 ### How to run
+
 * [1] Execute first extract_patches.py to prepare the training and validation datasets.
-* [2] then train.py to train the model
-* [3]  predict.py to make predictions
+* [2] then train.py to train the model.
+* [3] predict.py to make final predictions.
