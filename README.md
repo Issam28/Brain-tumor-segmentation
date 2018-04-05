@@ -14,6 +14,7 @@ The implementation is based on keras and tested on both Theano and Tensorflow ba
 
 To run the code, you first need to install the following prerequisites: 
 
+* Python 3.5 or above
 * numpy
 * keras
 * scipy
