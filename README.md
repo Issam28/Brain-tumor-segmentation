@@ -1,6 +1,6 @@
-# Brain-tumor-segmentation
+# Fully automatic Brain tumor segmentation
 
-### Overview
+### Brief overview
 
 This repository provides source code for a deep convolutional neural network architecture designed for brain tumor segmentation with BraTS2017 dataset. 
 The architecture is fully convolutional network (FCN) built upon the well-known U-net model and it makes use of residual units instead of plain units to speedup training and convergence.
