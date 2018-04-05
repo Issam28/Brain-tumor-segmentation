@@ -1,5 +1,5 @@
 import random
-from skimage import io
+#from skimage import io
 import numpy as np
 from glob import glob
 import SimpleITK as sitk
@@ -164,7 +164,7 @@ class Pipeline(object):
             return tmp
 
 
-
+'''
 def save_image_png (img,output_file="img.png"):
     """
     save 2d image to disk in a png format
@@ -175,6 +175,7 @@ def save_image_png (img,output_file="img.png"):
     if np.min(img) <= -1: # set values > -1
         img /= abs(np.min(img))
     io.imsave(output_file, img)
+'''
 
 
     
