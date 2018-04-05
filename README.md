@@ -10,15 +10,15 @@ During training, 2D patches of size 128x128 from the axial plane are randomly sa
 
 The implementation is based on keras and tested on both Theano and Tensorflow backends.
 
-Here are some results predicted by a model trained for 2 epochs :
+- Here are some results predicted by a model trained for 2 epochs :
 
-* HGG cases :
+*   **HGG cases** :
 
 ![Optional Text](../master/docs/images/HGG-Brats17_2013_7_1-111.png)
 ![Optional Text](../master/docs/images/HGG-Brats17_CBICA_ASV_1-88.png)
 ![Optional Text](../master/docs/images/HGG-Brats17_TCIA_186_1-90.png)
 
-* LGG cases :
+*   **LGG cases** :
 
 ![Optional Text](../master/docs/images/LGG-Brats17_TCIA_202_1-70.png)
 ![Optional Text](../master/docs/images/LGG-Brats17_2013_24_1-91.png)
@@ -36,6 +36,12 @@ To run the code, you first need to install the following prerequisites:
 
 ### How to run
 
-* [1] Execute first extract_patches.py to prepare the training and validation datasets.
-* [2] then train.py to train the model.
-* [3] predict.py to make final predictions.
+1. Execute first `extract_patches.py` to prepare the training and validation datasets.
+2. then `train.py` to train the model.
+3. `predict.py` to make final predictions.
+
+```
+python extract_patches.py
+python train.py
+python predict.py
+```
