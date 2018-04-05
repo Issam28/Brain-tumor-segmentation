@@ -19,7 +19,6 @@ To run the code, you first need to install the following prerequisites:
 * keras
 * scipy
 * SimpleITK
-* scikit-image
 
 ### How to run
 
