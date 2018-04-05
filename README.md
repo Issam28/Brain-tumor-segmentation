@@ -10,7 +10,7 @@ During training, 2D patches of size 128x128 from the axial plane are randomly sa
 
 The implementation is based on keras and tested on both Theano and Tensorflow backends.
 
-- Here are some results predicted by a model trained for 2 epochs :
+Here are some results predicted by a model trained for 2 epochs :
 
 *   **HGG cases** :
 
