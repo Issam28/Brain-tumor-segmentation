@@ -45,3 +45,17 @@ python extract_patches.py
 python train.py
 python predict.py
 ```
+### How to to cite 
+
+This code is an implementation of [this paper](https://link.springer.com/chapter/10.1007/978-3-030-11726-9_4). If you find this code useful in your research, please consider citing: 
+
+```
+@inproceedings{kermi2018deep,
+  title={Deep Convolutional Neural Networks Using U-Net for Automatic Brain Tumor Segmentation in Multimodal MRI Volumes},
+  author={Kermi, Adel and Mahmoudi, Issam and Khadir, Mohamed Tarek},
+  booktitle={International MICCAI Brainlesion Workshop},
+  pages={37--48},
+  year={2018},
+  organization={Springer}
+}
+```
