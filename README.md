@@ -45,7 +45,7 @@ python extract_patches.py
 python train.py
 python predict.py
 ```
-### How to to cite 
+### How to cite 
 
 This code is an implementation of [this paper](https://link.springer.com/chapter/10.1007/978-3-030-11726-9_4). If you find this code useful in your research, please consider citing: 
 
